@@ -2,4 +2,5 @@
     <string name="app_name">ConstraintLayoutWorkshop</string>
     <string name="movie_title">Jumanji</string>
     <string name="movie_tag_line">Welcome to the Jungle Baby!!!</string>
+    <string name="movie_sinopsi">Four children find an old video game, and are sent to the jungle to get their avatars in the game.</string>
 </resources>

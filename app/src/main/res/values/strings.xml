@@ -3,4 +3,10 @@
     <string name="movie_title">Jumanji</string>
     <string name="movie_tag_line">Welcome to the Jungle Baby!!!</string>
     <string name="movie_sinopsi">umanji: Welcome to the Jungle is a 2017 American action adventure comedy film[3][6] directed by Jake Kasdan and written by Chris McKenna, Erik Sommers, Scott Rosenberg, and Jeff Pinkner, from a story by McKenna. It is the second installment in the Jumanji franchise, based on the 1981 children's book of the same name by Chris Van Allsburg and serves as a stand-alone sequel to Jumanji (1995). The film also makes a tribute to Robin Williams, star of the original film, with a carving of his character's name.[7] The film stars Dwayne Johnson, Jack Black, Kevin Hart, Karen Gillan, Nick Jonas, and Bobby Cannavale.</string>
+    <string name="movie_genre_1">Comedy</string>
+    <string name="movie_genre_2">Science Fiction</string>
+    <string name="movie_genre_3">Adventure</string>
+
+
+
 </resources>

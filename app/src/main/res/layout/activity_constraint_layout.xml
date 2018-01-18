@@ -161,4 +161,78 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
 
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="375dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:srcCompat="@drawable/karen" />
+
+    <ImageView
+        android:id="@+id/dwayne"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/dwayne_name"
+        app:layout_constraintStart_toStartOf="@+id/dwayne_name"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:srcCompat="@drawable/dwayne" />
+
+    <TextView
+        android:id="@+id/dwayne_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/dwayne_role"
+        app:layout_constraintStart_toStartOf="@+id/dwayne_role"
+        app:layout_constraintTop_toBottomOf="@+id/dwayne"
+        tools:text="@string/dwayne" />
+
+    <TextView
+        android:id="@+id/dwayne_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        tools:layout_editor_absoluteY="458dp"
+        tools:text="@string/dwayne_role" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/karen_role"
+        app:layout_constraintStart_toStartOf="@+id/karen_role"
+        tools:layout_editor_absoluteY="439dp"
+        tools:text="@string/karen" />
+
+    <TextView
+        android:id="@+id/karen_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="458dp"
+        tools:text="@string/karen_role" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
 </android.support.constraint.ConstraintLayout>

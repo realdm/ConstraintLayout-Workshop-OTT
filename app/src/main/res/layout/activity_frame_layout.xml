@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:tint="#79000000"
+        android:src="@drawable/pakenham"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunny Pakenham"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        />
+</FrameLayout>

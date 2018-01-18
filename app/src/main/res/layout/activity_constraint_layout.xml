@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -71,5 +70,14 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/ic_favorite_black_24dp"
         tools:layout_editor_absoluteX="268dp" />
+
+    <TextView
+        android:id="@+id/sinopsis"
+        android:layout_width="368dp"
+        android:layout_height="171dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="332dp"
+        tools:text="@string/movie_synopsis" />
 
 </android.support.constraint.ConstraintLayout>

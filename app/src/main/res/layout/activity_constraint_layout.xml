@@ -57,4 +57,18 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         tools:text="@string/movie_tag_line" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        android:tint="@android:color/white"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/ic_favorite_black_24dp"
+        tools:layout_editor_absoluteX="268dp" />
+
 </android.support.constraint.ConstraintLayout>

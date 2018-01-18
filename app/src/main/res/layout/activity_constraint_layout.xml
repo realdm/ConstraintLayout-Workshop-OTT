@@ -76,6 +76,7 @@
         android:layout_width="324dp"
         android:layout_height="167dp"
         android:text="movie_sinopsis"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         tools:layout_editor_absoluteY="346dp"

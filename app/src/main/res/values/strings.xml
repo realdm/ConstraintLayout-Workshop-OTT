@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ConstraintLayoutWorkshop</string>
+    <string name="movie_title">Jumanji</string>
+    <string name="movie_tag_line">Welcome to the Jungle Baby!!!</string>
 </resources>

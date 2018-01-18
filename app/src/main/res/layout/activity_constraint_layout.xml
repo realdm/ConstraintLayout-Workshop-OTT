@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        tools:layout_editor_absoluteY="429dp"
+        tools:layout_editor_absoluteY="491dp"
         tools:text="@string/movie_sinopsi" />
 
     <android.support.constraint.Guideline
@@ -100,7 +100,7 @@
         android:id="@+id/genre1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_corner_rectangel"
+        android:background="@drawable/rounded_corners_rectangle"
         android:paddingBottom="4dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
@@ -117,7 +117,7 @@
         android:id="@+id/movie_genre_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rounded_corner_rectangel"
+        android:background="@drawable/rounded_corners_rectangle"
         android:paddingBottom="4dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
@@ -135,7 +135,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/rounded_corner_rectangel"
+        android:background="@drawable/rounded_corners_rectangle"
         android:paddingBottom="4dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"

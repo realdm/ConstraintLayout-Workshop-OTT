@@ -8,5 +8,16 @@
     <string name="movie_genre_3">Adventure</string>
 
 
+    <!-- Actors-->
+    <string name="dwayne">Dwayne Johnson</string>
+    <string name="kevin">Kevin Hart</string>
+    <string name="nick">Nick Jonas</string>
+    <string name="karen">Karren Gilan</string>
+
+    <!--Actors roles-->
+    <string name="dwayne_role">Dr. Smolder Bravestone</string>
+    <string name="kevin_role">Moose Finbar</string>
+    <string name="nick_role">Seaplane McDonough</string>
+    <string name="karen_role">Ruby Roundhouse</string>
 
 </resources>
